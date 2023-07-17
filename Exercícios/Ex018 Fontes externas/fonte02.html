@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        /* PARA FONTES BAIXADAS*/
+        @font-face {
+            font-family: 'Assinatura';
+            src: url('Fonts/Samantha Signature.otf') format('opentype'), url('Fonts/Samantha Signature.otf') format('truetype');
+
+            /*TIPOS DE FORMAT():
+            -opentype(otf)
+            -truetype(ttf)
+            -embedded-opentype
+            -truetype-aat(Apple Advanced Typography)
+            -svg */
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        p{
+            font-family: 'Assinatura', 'Times New Roman', Times, serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Assinatura</h1>
+    <p>Bruno.CVieira</p>
+    <p>Service Contabilidade</p>
+    <p>Zaffari</p>
+</body>
+</html>

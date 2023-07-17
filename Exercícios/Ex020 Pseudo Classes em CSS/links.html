@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* # = ID
+        . = CLASS
+        : = PSEUDO CLASSES
+        :: = PSEUDO ELEMENTOS
+        > = CHILDREN
+        */
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color: rgb(52, 171, 211);
+            text-decoration: none;
+            font-weight: none;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        a::after{
+            content: ' [link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://coolors.co/fe4a49-009fb7-e6e6ea-07090f" target="_blank">Repositório</a></li>
+        <li><a href="https://coolors.co/fe4a49-009fb7-e6e6ea-07090f" target="_blank">Canal YT</a></li>
+        <li><a href="https://coolors.co/fe4a49-009fb7-e6e6ea-07090f" target="_blank">Site do CEV</a></li>
+    </ul>
+</body>
+</html>
